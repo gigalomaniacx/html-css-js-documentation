@@ -1,28 +1,40 @@
-The <!DOCTYPE html> declaration defines this document as an HTML5 document
-The <html> element is the root element of an HTML page
-The <head> element contains meta information about the HTML page
-The <title> element specifies a title for the HTML page(shown on the tab)
-The <body> element defines the document's body & is a container for al the visible content
-The <h1> elemennt defines a large heading
-The <p> element defines a paragraph
+///Basic tags:
+    The <!DOCTYPE html> declaration defines this document as an HTML5 document
+    The <html> element is the root element of an HTML page
+    The <head> element contains meta information about the HTML page
+    The <title> element specifies a title for the HTML page(shown on the tab)
+    The <body> element defines the document's body & is a container for al the visible content
+    The <h1> elemennt defines a large heading
+    The <p> element defines a paragraph
 
-<h1> defines the most important heading
-<h6> defines the least important heading
+///h tag:
+    <h1> defines the most important heading
+    <h6> defines the least important heading
 
-<img src="image.png" alt="alternativeText" width="100%" height="100%">
-src is source, alt is the alternative text, width & height can be pixels(px)
-The alt text is displayed when the image failes to load 
+///img tag:
+    <img src="image.png" alt="alternativeText" width="100%" height="100%">
+    src is source, alt is the alternative text, width & height can be pixels(px)
+    The alt attribute is displayed when the image failes to load 
 
-the <a> tag defines a hyperlink. The href attribute specifies where it goes
+///a tag:
+    The <a> tag defines a hyperlink. The href attribute specifies where it goes
+    <a href="page1"> goes to page 1 in the current directory
 
-<a href="page1"> goes to page 1 in the current directory
+///br tag:
+    The <br> tag breaks the line and is an empty tag.
 
-The title attribute defines some extra information about the element.
+///pre tag:
+    The <pre> tag defines preformatted text.
+
+///hr tag:
+    The <hr> tag defines a thematic change in the content(ugly line gets drawn unless css changes it(do not use🤢))
+    Displayed in a fixed-width font, and preserves both spaces and line breaks
+
+///title attribute (used in the tags)
+    The title attribute defines some extra information about the element.
 
 
-The <br> tag breaks the line and is an empty tag.
+///Styles:
+<h1 style="color:blue";>Header<h1> -> changes the text color to blue, can use hexadecimal #ffffff
 
-The <pre> tag defines preformatted text.
-Displayed in a fixed-width font, and preserves both spaces and line breaks
-
-The <hr> tag defines a thematic change in the content
+background-color:#413f3f; -> changes the background color
