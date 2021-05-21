@@ -24,11 +24,11 @@ ___________________________________
 ## ^Here all elemnts tagged with the id="id_1" will have the text color green.
 ___________________________________
 
-    ```
+```
     .center {
         text-align: center;
     }
-    ```
+```
 ### ^All elements tagged with class="center" wil be center aligned.
 ___________________________________
 
