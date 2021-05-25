@@ -15,13 +15,13 @@
     p {
         color: blue;
     }
-## ^Here all the <p> elements would have the text color blue.
+### ^Here all the <p> elements would have the text color blue.
 ___________________________________
 
     #id_1 {
         color: green;
     }
-## ^Here all elemnts tagged with the id="id_1" will have the text color green.
+### ^Here all elemnts tagged with the id="id_1" will have the text color green.
 ___________________________________
 
 ```
@@ -61,17 +61,17 @@ ___________________________________
         color: red;
     }
 ```
-### ^gives the tags <h1> <h2> and <p> center aligned text and the color red.
+### ^gives the tags ```<h1> <h2>``` and ```<p>``` center aligned text and the color red.
 
 
 ## All CSS Simple Selectors:
 ```
     Selector	        Example	Example description
-    #id	                #firstname	    Selects the element with id="firstname"
-    .class	                .intro	        Selects all elements with class="intro"
-    element.class	        p.intro	        Selects only <p> elements with class="intro"
-    *	                *	            Selects all elements
-    element	                p	            Selects all <p> elements
+    #id	                #firstname      Selects the element with id="firstname"
+    .class              .intro          Selects all elements with class="intro"
+    element.class       p.intro	        Selects only <p> elements with class="intro"
+    *                   *               Selects all elements
+    element             p               Selects all <p> elements
     element,element,..	div, p	        Selects all <div> elements and all <p> elements
 ```
 
@@ -83,13 +83,53 @@ ___________________________________
 
 ### External CSS:
         Put this in the <head> tag to define the css file:
-            <link rel="stylesheet" href="style.css">
+####    ```<link rel="stylesheet" href="style.css">```
     
 ### Internal CSS:
-        Is defined in the <style> element, which most often is in the <head> element
+Is defined in the ```<style>``` element, which most often is in the ```<head>``` element
 
 ### Inline CSS:
-        Is defined with the style attribute of the relevant element
+    Is defined with the style attribute of the relevant element
         <h1 style="color:red;">header1</h1>
         'The Inline style loses many of the advantages of a stylesheet'
         
+## CSS grid:
+- grid-column-start
+- grid-column-end
+- grid-column
+- grid-row
+- order
+- grid-template-columns
+- grid-template-rows
+- grid-template
+
+
+### grid-column-start:
+Starts the grid column at the set value.
+
+### grid-columnn-end:
+Stops the grid column at the next value 5 equals column 4 visually.
+
+### grid-column:
+Sets the start and end of the column:
+        grid-column: 1 / 5;
+        starts the grid at 1 & ends it visually at 4.
+
+### grid-row:
+Works the same as grid-column but it's for the rows instead.
+
+### order:
+ manipulates the order something is shown can take positive & negative numbers.
+
+### grid-template-columns:
+Sets the size of the columns in the grid, can be in px, em precentages and you can even mix different units together.
+
+### grid-template-rows:
+Works the same as grid-template-columns just for the rows.
+
+### grid-template:
+Is a shorthand for the grid-template-columns and grid-template-rows.
+``` 
+grid-template: 20% 20% 20% 20% 20% / 50% 50%;
+```
+^Sets the grid to have 5 rows that each is 20% and tow columns that are 50% of the allowed space for the div.
