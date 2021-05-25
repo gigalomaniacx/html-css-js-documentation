@@ -133,3 +133,5 @@ Is a shorthand for the grid-template-columns and grid-template-rows.
 grid-template: 20% 20% 20% 20% 20% / 50% 50%;
 ```
 ^Sets the grid to have 5 rows that each is 20% and tow columns that are 50% of the allowed space for the div.
+
+[temp test link](https://github.com/gigalomaniacx/html-css-js-documentation/blob/main/linkTest.md)
