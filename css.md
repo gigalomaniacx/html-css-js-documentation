@@ -15,13 +15,13 @@
     p {
         color: blue;
     }
-### ^Here all the <p> elements would have the text color blue.
+ ^Here all the `<p>` elements would have the text color blue.
 ___________________________________
 
     #id_1 {
         color: green;
     }
-### ^Here all elemnts tagged with the id="id_1" will have the text color green.
+^Here all elemnts tagged with the `id="id_1"` will have the text color green.
 ___________________________________
 
 ```
@@ -29,16 +29,16 @@ ___________________________________
         text-align: center;
     }
 ```
-### ^All elements tagged with class="center" wil be center aligned.
+^All elements tagged with `class="center"` wil be center aligned.
 ___________________________________
 
 ```
-    p.center {
-        color: yellow;
-        text-align: center;
-    }
+p.center {
+    color: yellow;
+    text-align: center;
+}
 ```
-### ^Only <p> elements with class="center" will get the above style.
+^Only `<p>` elements with `class="center"` will get the above style.
 ___________________________________
 
     <p class="center large">This paragraph refers to two classes.</p>
@@ -46,9 +46,9 @@ ___________________________________
 ___________________________________
 
 ```
-    * {
-        color: blue;
-    }
+* {
+    color: blue;
+}
 ```
 ### ^The wildcard character strikes again(affects every HTML element on the page)
 ___________________________________
@@ -56,23 +56,23 @@ ___________________________________
     You can group selectors with commas
     
 ```
-    h1, h2, p {
-        text-aligned: center;
-        color: red;
-    }
+h1, h2, p {
+    text-aligned: center;
+    color: red;
+}
 ```
-### ^gives the tags ```<h1> <h2>``` and ```<p>``` center aligned text and the color red.
+### ^gives the tags `<h1> <h2>` and `<p>` center aligned text and the color red.
 
 
 ## All CSS Simple Selectors:
 ```
-    Selector	        Example	Example description
-    #id	                #firstname      Selects the element with id="firstname"
-    .class              .intro          Selects all elements with class="intro"
-    element.class       p.intro	        Selects only <p> elements with class="intro"
-    *                   *               Selects all elements
-    element             p               Selects all <p> elements
-    element,element,..	div, p	        Selects all <div> elements and all <p> elements
+Selector	        Example	Example description
+#id	                #firstname      Selects the element with id="firstname"
+.class              .intro          Selects all elements with class="intro"
+element.class       p.intro	        Selects only <p> elements withclass="intro"
+*                   *               Selects all elements
+element             p               Selects all <p> elements
+element,element,..	div, p	        Selects all <div> elements and all <p>elements
 ```
 
 
@@ -82,16 +82,16 @@ ___________________________________
 - Inline CSS
 
 ### External CSS:
-        Put this in the <head> tag to define the css file:
-####    ```<link rel="stylesheet" href="style.css">```
+Put this in the `<head>` tag to define the css file:
+    `<link rel="stylesheet" href="style.css">`
     
 ### Internal CSS:
-Is defined in the ```<style>``` element, which most often is in the ```<head>``` element
+Is defined in the `<style>` element, which most often is in the `<head>` element
 
 ### Inline CSS:
-    Is defined with the style attribute of the relevant element
-        <h1 style="color:red;">header1</h1>
-        'The Inline style loses many of the advantages of a stylesheet'
+Is defined with the style attribute of the relevant element
+`<h1 style="color:red;">header1</h1>`
+The Inline style loses many of the advantages of a stylesheet
         
 ## CSS grid:
 - grid-column-start
@@ -112,7 +112,7 @@ Stops the grid column at the next value 5 equals column 4 visually.
 
 ### grid-column:
 Sets the start and end of the column:
-        grid-column: 1 / 5;
+        `grid-column: 1 / 5;`
         starts the grid at 1 & ends it visually at 4.
 
 ### grid-row:
